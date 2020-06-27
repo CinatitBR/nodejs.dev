@@ -53,7 +53,7 @@ we set the statusCode property to 200, to indicate a successful response.
 We also set the Content-Type header:
 
 ```js
-res.setHeader('Content-Type', 'text/plain')
+res.setHeader('Content-Type', 'text/html')
 ```
 
 and we end close the response, adding the content as an argument to `end()`:
